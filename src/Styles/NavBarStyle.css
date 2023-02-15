@@ -1,0 +1,27 @@
+.navbar {
+    /* background-color: #e1ad01; */
+    box-shadow: 0 5px 1rem 0 rgba(0,0,0,.2);
+    background: rgb(145,199,198);
+    background: linear-gradient(90deg, rgba(145,199,198,1) 3%, rgba(138,53,212,1) 50%, rgba(48,156,207,1) 100%); 
+}
+
+
+.left-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+
+p,h4 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+    p{
+        display: none;
+    }
+  }

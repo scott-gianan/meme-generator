@@ -1,0 +1,25 @@
+.generated-image{
+
+    margin: 1rem auto 1rem auto;
+    height:auto;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .generated-image{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .generated-image{
+        width: 80%;
+    }
+
+} 
+
+@media only screen and (min-width: 992px) {
+    .generated-image{
+        width: 40%;
+    }
+} 
