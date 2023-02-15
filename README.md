@@ -1,5 +1,5 @@
 # meme-generator
-third project from scrimba's react course
+# third project from scrimba's react course
 
 view the live site here: https://scotty-meme-generator.netlify.app/
 
