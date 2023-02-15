@@ -15,11 +15,16 @@ export default function MemeForm() {
     });
 
     const [allmemeImages, setAllMemeImages] = useState([]);
-
     useEffect(()=> {
-        fetch('https://api.imgflip.com/get_memes')
-            .then(response => response.json())
-            .then(data => setAllMemeImages(data.data.memes));
+        async function getMemes(){
+            const response = await fetch('https://api.imgflip.com/get_memes');
+            const data = await response.json();
+            const memes = data.data.memes.filter(meme =>{
+                return meme.box_count <= 2
+            })
+            setAllMemeImages(memes);
+        }
+        getMemes();
     },[]);
 
     const getRandomMemeImage = () => {
@@ -29,6 +34,7 @@ export default function MemeForm() {
                 ...previousImageLink,
                 randomImage : allmemeImages[randomIndex].url
             };
+            console.log(newImageLink)
             return newImageLink;
         });
     };
