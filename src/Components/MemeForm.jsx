@@ -11,7 +11,7 @@ export default function MemeForm() {
     const [imageData, setImageData] = useState({
         topText : '',
         bottomText: '',
-        randomImage: ""
+        randomImage: "https://i.imgflip.com/1ur9b0.jpg"
     });
 
     const [allmemeImages, setAllMemeImages] = useState([]);
