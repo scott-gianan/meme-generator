@@ -3,7 +3,7 @@ third project from scrimba's react course
 
 view the live site here: https://scotty-meme-generator.netlify.app/
 
-if you want to clone this repository:
+if you want to clone this repository and run locally:
 
 1. git clone https://github.com/scott-gianan/meme-generator.git
 2. cd meme-generator
