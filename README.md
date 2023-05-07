@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 # Meme-generator
 
 Third project from scrimba's [react course](https://scrimba.com/learn/learnreact)
 
-This project is hoted on netlify. View the live site [here](https://scotty-meme-generator.netlify.app/).
+This project is hosted on netlify. View the live site [here](https://scotty-meme-generator.netlify.app/).
 
-![Demo showing the finished project, Wordle clone](docs/meme-generator-preview.gif)
+![Demo showing the finished project](docs/meme-generator-preview.gif)
 
 # About
 
@@ -45,19 +44,3 @@ Just as the name of the project says, it's a meme generator.
    ```
    http://localhost:8080/
    ```
-
----
-=======
-# meme-generator
-Third project from scrimba's [react course](https://scrimba.com/learn/learnreact)
-
-View the live site [here](https://scotty-meme-generator.netlify.app/)
-
-# Local Development
-```
-1. git clone https://github.com/scott-gianan/meme-generator.git
-2. cd meme-generator
-3. npm install
-4. npm start
-```
->>>>>>> cbb0c742defa2b2af3e9052075875729c50ad03c
